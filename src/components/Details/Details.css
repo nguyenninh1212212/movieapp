@@ -1,0 +1,23 @@
+.Details{
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.themovie {
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white;
+    gap: 15px;
+  }
+.word {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,58 @@
+.Nav{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search,.logo{
+  height: 100px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    color: white;
+    width: 450px;
+    
+}
+input{
+    width: 400px !important;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.sear{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+.icon{
+    font-size: 50px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+}
+.menu{
+    font-size: 25px;
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #2D2D2D;
+
+}
+p{
+    height: 50px;
+    color: white;
+}
